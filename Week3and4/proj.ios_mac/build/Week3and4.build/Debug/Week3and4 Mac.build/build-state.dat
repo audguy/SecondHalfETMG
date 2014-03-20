@@ -1,0 +1,904 @@
+TWeek3and4 Mac
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Info.plist /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Info.plist
+cCpResource /Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseNormal.png /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/CloseNormal.png
+cCpResource /Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseSelected.png /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/CloseSelected.png
+cCpResource mac/Icon.icns /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/Icon.icns
+cCpResource /Users/audguy/AudguyWeek3and4/Week3and4/Resources/HelloWorld.png /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/HelloWorld.png
+cProcessPCH++ /var/folders/3r/69ztzjwx36s60whqn8fvntlc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-adhdkdgvctcgihexxrpqqdtqybzv/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/AppDelegate.o /Users/audguy/AudguyWeek3and4/Week3and4/Classes/AppDelegate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/HelloWorldScene.o /Users/audguy/AudguyWeek3and4/Week3and4/Classes/HelloWorldScene.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/main.o /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/MacOS/Week3and4\ Mac normal x86_64
+cTouch /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000531E333300000000000000AA
+t1394488115
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000530B001B000000000000044C
+t1393229851
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E332A00000000000001DE
+t1394488106
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c00000000531E332A0000000000095820
+t1394488106
+s612384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+c00000000531E332A0000000000268434
+t1394488106
+s2524212
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000531E332A000000000002848C
+t1394488106
+s165004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000531E332A000000000008B334
+t1394488106
+s570164
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531E332A00000000000C9E38
+t1394488106
+s826936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c00000000531E332A000000000004426C
+t1394488106
+s279148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c00000000530B001C000000000000A564
+t1393229852
+s42340
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000531E332A000000000000BB7C
+t1394488106
+s47996
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c00000000531E332A0000000000055BC0
+t1394488106
+s351168
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libcurl.dylib
+c00000000531E332B000000000000A4C8
+t1394488107
+s42184
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib
+c00000000530B001D00000000000044B8
+t1393229853
+s17592
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/Classes/AppDelegate.cpp
+c000000005323C6880000000000000558
+t1394853512
+s1368
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/Classes/HelloWorldScene.cpp
+c000000005323C68800000000000009DB
+t1394853512
+s2523
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseNormal.png
+c000000005323C68800000000000018A7
+t1394853512
+s6311
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseSelected.png
+c000000005323C688000000000000157B
+t1394853512
+s5499
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/Resources/HelloWorld.png
+c000000005323C6880000000000021E19
+t1394853512
+s138777
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app
+t1395258781
+s102
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Info.plist
+t1395258781
+s1553
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/MacOS/Week3and4 Mac
+t1395258783
+s8185124
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/PkgInfo
+t1395258781
+s8
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Resources/CloseNormal.png
+t1395258781
+s6311
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Resources/CloseSelected.png
+t1395258781
+s5499
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Resources/HelloWorld.png
+t1395258781
+s138777
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Resources/Icon.icns
+t1395258781
+s716318
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libCocosDenshion Mac.a
+c000000005329F59D0000000000073C00
+t1395258781
+s474112
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libbox2d Mac.a
+c000000005329F56800000000001E6B60
+t1395258728
+s1993568
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libchipmunk Mac.a
+c000000005329F56900000000000BD858
+t1395258729
+s776280
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libcocos2dx Mac.a
+c000000005329F596000000000CAA9168
+t1395258774
+s212504936
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libcocos2dx-extensions Mac.a
+c000000005329F59C000000000143F640
+t1395258780
+s21231168
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4 Mac.build/Objects-normal/x86_64/AppDelegate.o
+t1395258782
+s1099516
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4 Mac.build/Objects-normal/x86_64/HelloWorldScene.o
+t1395258782
+s1533464
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4 Mac.build/Objects-normal/x86_64/Week3and4 Mac.LinkFileList
+c000000005329F59D0000000000000198
+t1395258781
+s408
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4 Mac.build/Objects-normal/x86_64/main.o
+t1395258782
+s40984
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Icon.icns
+c000000005323C68800000000000AEE1E
+t1394853512
+s716318
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Info.plist
+c000000005323C6880000000000000498
+t1394853512
+s1176
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Prefix.pch
+c000000005323C6880000000000000092
+t1394853512
+s146
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/main.cpp
+c000000005323C6880000000000000593
+t1394853512
+s1427
+
+N/var/folders/3r/69ztzjwx36s60whqn8fvntlc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-adhdkdgvctcgihexxrpqqdtqybzv/Prefix.pch.pch
+t1395258781
+s124812
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesdd287a1d2ddab841^93c47a1d2ddab841^---0#1#1#--18"Check dependencies36"3945E669-F3BC-468F-B85C-E94234C43B9B-
+
+CCompileC build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/AppDelegate.o /Users/audguy/AudguyWeek3and4/Week3and4/Classes/AppDelegate.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416951581.499042
+e416951582.613611
+r1
+xCompileC
+xbuild/Week3and4.build/Debug/Week3and4 Mac.build/Objects-normal/x86_64/AppDelegate.o
+x/Users/audguy/AudguyWeek3and4/Week3and4/Classes/AppDelegate.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/audguy/AudguyWeek3and4/Week3and4/Classes/AppDelegate.cpp
+d/Users/audguy/AudguyWeek3and4/Week3and4/Classes/AppDelegate.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/cocos2d.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCAction.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCRef.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCPlatformDefine.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCGeometry.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccMacros.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCConsole.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCStdC.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionInterval.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCAffineTransform.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/kazmath.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/vec2.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/utility.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/vec3.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/mat3.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/mat4.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/quaternion.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/plane.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/aabb.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/ray2.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/ray3.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCArray.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccCArray.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCDataVisitor.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCGL.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccGLStateCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCGLProgram.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCScriptSupport.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCCommon.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTouch.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventTouch.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEvent.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventKeyboard.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCSet.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCProtocols.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccTypes.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTexture2D.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventDispatcher.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListener.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCVector.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCSpriteFrame.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCAnimation.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCValue.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionCamera.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionManager.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionEase.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionPageTurn3D.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionGrid3D.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionGrid.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionInstant.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionProgressTimer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionTiledGrid.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionTween.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionCatmullRom.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCAtlasNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCQuadCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCRenderCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/GL/matrix.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCRenderCommandPool.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCDictionary.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/uthash.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCString.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCMap.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCAutoreleasePool.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCInteger.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCFloat.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCDouble.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCBool.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCNS.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCData.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCDrawingPrimitives.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCDrawNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCCustomCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCGrabber.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCConfiguration.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCGrid.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCDirector.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLabelAtlas.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventType.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLabelTTF.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLabelBMFont.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLabel.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCSpriteBatchNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTextureAtlas.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCBatchCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCFontAtlas.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLayer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCScene.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsWorld.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTransition.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTransitionPageTurn.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTransitionProgress.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCMenu.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCMenuItem.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCClippingNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCGroupCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCMotionStreak.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCProgressTimer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCSprite.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsBody.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsShape.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCRenderTexture.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCImage.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCNodeGrid.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParticleBatchNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParticleSystem.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParticleExamples.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParticleSystemQuad.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCFrustum.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCMaterialManager.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCRenderMaterial.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCRenderer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsContact.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerCustom.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventCustom.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsJoint.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCDevice.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCFileUtils.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCSAXParser.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCThread.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCApplication.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCApplicationProtocol.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/desktop/CCGLView.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCGLViewProtocol.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/external/glfw3/include/mac/glfw3.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCShaderCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccShaders.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCAnimationCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCSpriteFrameCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccUTF8.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCNotificationCenter.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCProfiling.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCUserDefault.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCVertex.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCIMEDelegate.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCIMEDispatcher.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTextFieldTTF.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTextureCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParallaxNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTMXLayer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTMXObjectGroup.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTMXXMLParser.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTMXTiledMap.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTileMapAtlas.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerTouch.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerKeyboard.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerMouse.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventMouse.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventAcceleration.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerAcceleration.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCScheduler.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCComponent.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCComponentContainer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCDeprecated.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/Classes/HelloWorldScene.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/audguy/AudguyWeek3and4/Week3and4/Classes/AppDelegate.cpp235"[1mCompileC[0m build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/AppDelegate.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/Classes/AppDelegate.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerb1db7f1d2ddab841^98169d1e2ddab841^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/audguy/AudguyWeek3and4/Week3and4/Classes/AppDelegate.cpp0000000000000000^3870"[1mCompileC[0m build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/AppDelegate.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/Classes/AppDelegate.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_MAC -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Week3and4\ Mac.hmap -I/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/include -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/base -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/physics -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/math/kazmath -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/2d -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/ui -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/network -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/extensions -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/external -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/2d/platform/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/external/glfw3/include/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/DerivedSources/x86_64 -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/DerivedSources -F/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -include /var/folders/3r/69ztzjwx36s60whqn8fvntlc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-adhdkdgvctcgihexxrpqqdtqybzv/Prefix.pch -MMD -MT dependencies -MF /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/AppDelegate.d --serialize-diagnostics /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/AppDelegate.dia -c /Users/audguy/AudguyWeek3and4/Week3and4/Classes/AppDelegate.cpp -o /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/AppDelegate.o36"94069AB3-9591-4140-BF54-CDB39C5DE5D5-
+bAD1F9EED-2597-44F8-BD73-A8B530C6AEFD
+
+CCompileC build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/HelloWorldScene.o /Users/audguy/AudguyWeek3and4/Week3and4/Classes/HelloWorldScene.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416951581.499305
+e416951582.730091
+r1
+xCompileC
+xbuild/Week3and4.build/Debug/Week3and4 Mac.build/Objects-normal/x86_64/HelloWorldScene.o
+x/Users/audguy/AudguyWeek3and4/Week3and4/Classes/HelloWorldScene.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/audguy/AudguyWeek3and4/Week3and4/Classes/HelloWorldScene.cpp
+d/Users/audguy/AudguyWeek3and4/Week3and4/Classes/HelloWorldScene.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/cocos2d.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCAction.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCRef.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCPlatformDefine.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCGeometry.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccMacros.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCConsole.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCStdC.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionInterval.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCAffineTransform.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/kazmath.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/vec2.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/utility.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/vec3.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/mat3.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/mat4.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/quaternion.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/plane.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/aabb.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/ray2.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/ray3.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCArray.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccCArray.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCDataVisitor.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCGL.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccGLStateCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCGLProgram.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCScriptSupport.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCCommon.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTouch.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventTouch.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEvent.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventKeyboard.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCSet.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCProtocols.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccTypes.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTexture2D.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventDispatcher.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListener.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCVector.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCSpriteFrame.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCAnimation.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCValue.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionCamera.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionManager.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionEase.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionPageTurn3D.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionGrid3D.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionGrid.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionInstant.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionProgressTimer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionTiledGrid.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionTween.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionCatmullRom.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCAtlasNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCQuadCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCRenderCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/GL/matrix.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCRenderCommandPool.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCDictionary.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/uthash.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCString.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCMap.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCAutoreleasePool.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCInteger.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCFloat.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCDouble.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCBool.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCNS.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCData.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCDrawingPrimitives.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCDrawNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCCustomCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCGrabber.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCConfiguration.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCGrid.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCDirector.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLabelAtlas.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventType.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLabelTTF.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLabelBMFont.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLabel.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCSpriteBatchNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTextureAtlas.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCBatchCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCFontAtlas.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLayer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCScene.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsWorld.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTransition.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTransitionPageTurn.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTransitionProgress.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCMenu.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCMenuItem.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCClippingNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCGroupCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCMotionStreak.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCProgressTimer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCSprite.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsBody.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsShape.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCRenderTexture.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCImage.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCNodeGrid.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParticleBatchNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParticleSystem.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParticleExamples.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParticleSystemQuad.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCFrustum.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCMaterialManager.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCRenderMaterial.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCRenderer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsContact.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerCustom.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventCustom.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsJoint.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCDevice.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCFileUtils.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCSAXParser.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCThread.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCApplication.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCApplicationProtocol.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/desktop/CCGLView.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCGLViewProtocol.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/external/glfw3/include/mac/glfw3.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCShaderCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccShaders.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCAnimationCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCSpriteFrameCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccUTF8.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCNotificationCenter.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCProfiling.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCUserDefault.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCVertex.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCIMEDelegate.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCIMEDispatcher.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTextFieldTTF.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTextureCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParallaxNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTMXLayer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTMXObjectGroup.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTMXXMLParser.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTMXTiledMap.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTileMapAtlas.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerTouch.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerKeyboard.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerMouse.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventMouse.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventAcceleration.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerAcceleration.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCScheduler.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCComponent.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCComponentContainer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCDeprecated.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/audguy/AudguyWeek3and4/Week3and4/Classes/HelloWorldScene.cpp243"[1mCompileC[0m build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/HelloWorldScene.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/Classes/HelloWorldScene.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilercde87f1d2ddab841^19e8ba1e2ddab841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/audguy/AudguyWeek3and4/Week3and4/Classes/HelloWorldScene.cpp0000000000000000^3894"[1mCompileC[0m build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/HelloWorldScene.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/Classes/HelloWorldScene.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_MAC -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Week3and4\ Mac.hmap -I/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/include -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/base -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/physics -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/math/kazmath -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/2d -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/ui -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/network -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/extensions -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/external -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/2d/platform/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/external/glfw3/include/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/DerivedSources/x86_64 -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/DerivedSources -F/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -include /var/folders/3r/69ztzjwx36s60whqn8fvntlc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-adhdkdgvctcgihexxrpqqdtqybzv/Prefix.pch -MMD -MT dependencies -MF /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/HelloWorldScene.d --serialize-diagnostics /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/HelloWorldScene.dia -c /Users/audguy/AudguyWeek3and4/Week3and4/Classes/HelloWorldScene.cpp -o /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/HelloWorldScene.o36"7B128879-A263-4201-9368-29FDCA7DF140-
+bAD1F9EED-2597-44F8-BD73-A8B530C6AEFD
+
+CCompileC build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/main.o /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416951581.499647
+e416951582.406115
+r1
+xCompileC
+xbuild/Week3and4.build/Debug/Week3and4 Mac.build/Objects-normal/x86_64/main.o
+x/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/main.cpp
+d/Users/audguy/AudguyWeek3and4/Week3and4/Classes/AppDelegate.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/cocos2d.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCAction.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCRef.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCPlatformDefine.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCGeometry.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccMacros.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCConsole.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCStdC.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionInterval.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCAffineTransform.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/kazmath.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/vec2.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/utility.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/vec3.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/mat3.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/mat4.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/quaternion.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/plane.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/aabb.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/ray2.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/ray3.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCArray.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccCArray.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCDataVisitor.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCGL.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccGLStateCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCGLProgram.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCScriptSupport.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCCommon.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTouch.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventTouch.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEvent.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventKeyboard.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCSet.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCProtocols.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccTypes.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTexture2D.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventDispatcher.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListener.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCVector.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCSpriteFrame.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCAnimation.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCValue.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionCamera.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionManager.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionEase.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionPageTurn3D.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionGrid3D.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionGrid.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionInstant.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionProgressTimer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionTiledGrid.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionTween.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCActionCatmullRom.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCAtlasNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCQuadCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCRenderCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/math/kazmath/kazmath/GL/matrix.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCRenderCommandPool.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCDictionary.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/uthash.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCString.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCMap.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCAutoreleasePool.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCInteger.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCFloat.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCDouble.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCBool.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCNS.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCData.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCDrawingPrimitives.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCDrawNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCCustomCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCGrabber.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCConfiguration.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCGrid.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCDirector.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLabelAtlas.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventType.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLabelTTF.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLabelBMFont.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLabel.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCSpriteBatchNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTextureAtlas.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCBatchCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCFontAtlas.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCLayer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCScene.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsWorld.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTransition.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTransitionPageTurn.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTransitionProgress.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCMenu.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCMenuItem.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCClippingNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCGroupCommand.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCMotionStreak.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCProgressTimer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCSprite.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsBody.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsShape.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCRenderTexture.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCImage.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCNodeGrid.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParticleBatchNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParticleSystem.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParticleExamples.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParticleSystemQuad.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCFrustum.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCMaterialManager.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCRenderMaterial.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/renderer/CCRenderer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsContact.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerCustom.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventCustom.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/physics/CCPhysicsJoint.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCDevice.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCFileUtils.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCSAXParser.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCThread.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCApplication.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCApplicationProtocol.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/desktop/CCGLView.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCGLViewProtocol.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/external/glfw3/include/mac/glfw3.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCShaderCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccShaders.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCAnimationCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCSpriteFrameCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccUTF8.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCNotificationCenter.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCProfiling.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCUserDefault.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCVertex.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCIMEDelegate.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCIMEDispatcher.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTextFieldTTF.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTextureCache.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCParallaxNode.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTMXLayer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTMXObjectGroup.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTMXXMLParser.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTMXTiledMap.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTileMapAtlas.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerTouch.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerKeyboard.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerMouse.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventMouse.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventAcceleration.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCEventListenerAcceleration.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCScheduler.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCComponent.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCComponentContainer.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCDeprecated.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/main.cpp177"[1mCompileC[0m build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/main.o [1mmac/main.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler8ffe7f1d2ddab841^98f8671e2ddab841^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/main.cpp0000000000000000^3793"[1mCompileC[0m build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/main.o [1mmac/main.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_MAC -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Week3and4\ Mac.hmap -I/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/include -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/base -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/physics -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/math/kazmath -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/2d -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/ui -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/network -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/extensions -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/external -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/2d/platform/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/external/glfw3/include/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/DerivedSources/x86_64 -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/DerivedSources -F/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -include /var/folders/3r/69ztzjwx36s60whqn8fvntlc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-adhdkdgvctcgihexxrpqqdtqybzv/Prefix.pch -MMD -MT dependencies -MF /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/main.dia -c /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/main.cpp -o /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/main.o36"014D4D0E-0803-4FB5-993F-77CB04C21627-
+bAD1F9EED-2597-44F8-BD73-A8B530C6AEFD
+
+CCpResource /Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseNormal.png /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/CloseNormal.png
+s416951581.483163
+e416951581.484123
+r1
+xCpResource
+x/Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseNormal.png
+x/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Resources/CloseNormal.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Copy /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Resources/CloseNormal.png200"[1mCpResource[0m /Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseNormal.png [1m/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/CloseNormal.png[0mdbbe7b1d2ddab841^13f07b1d2ddab841^---0#0#1#-19%DVTDocumentLocation2@115"file:///Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4%20Mac.app/Contents/Resources/CloseNormal.png003488d5ddffdf42^531"[1mCpResource[0m /Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseNormal.png [1m/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/CloseNormal.png[0m    cd /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseNormal.png /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources36"8F4A7FE4-A797-4FF0-B031-711F5340D5C8-
+bAD1F9EED-2597-44F8-BD73-A8B530C6AEFD
+
+CCpResource /Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseSelected.png /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/CloseSelected.png
+s416951581.483859
+e416951581.484814
+r1
+xCpResource
+x/Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseSelected.png
+x/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Resources/CloseSelected.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Copy /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Resources/CloseSelected.png204"[1mCpResource[0m /Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseSelected.png [1m/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/CloseSelected.png[0ma6f17b1d2ddab841^8f1d7c1d2ddab841^---0#0#1#-19%DVTDocumentLocation2@117"file:///Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4%20Mac.app/Contents/Resources/CloseSelected.png003488d5ddffdf42^537"[1mCpResource[0m /Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseSelected.png [1m/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/CloseSelected.png[0m    cd /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/audguy/AudguyWeek3and4/Week3and4/Resources/CloseSelected.png /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources36"0EAAB5AD-F308-46EC-BFDB-9C420AA41092-
+bAD1F9EED-2597-44F8-BD73-A8B530C6AEFD
+
+CCpResource /Users/audguy/AudguyWeek3and4/Week3and4/Resources/HelloWorld.png /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/HelloWorld.png
+s416951581.484322
+e416951581.485232
+r1
+xCpResource
+x/Users/audguy/AudguyWeek3and4/Week3and4/Resources/HelloWorld.png
+x/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Resources/HelloWorld.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Copy /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Resources/HelloWorld.png198"[1mCpResource[0m /Users/audguy/AudguyWeek3and4/Week3and4/Resources/HelloWorld.png [1m/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/HelloWorld.png[0m68077c1d2ddab841^f3387c1d2ddab841^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4%20Mac.app/Contents/Resources/HelloWorld.png003488d5ddffdf42^528"[1mCpResource[0m /Users/audguy/AudguyWeek3and4/Week3and4/Resources/HelloWorld.png [1m/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/HelloWorld.png[0m    cd /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/audguy/AudguyWeek3and4/Week3and4/Resources/HelloWorld.png /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources36"97FB2807-661A-49F7-AB29-EB97E9E9E561-
+bAD1F9EED-2597-44F8-BD73-A8B530C6AEFD
+
+CCpResource mac/Icon.icns /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/Icon.icns
+s416951581.483922
+e416951581.485540
+r1
+xCpResource
+xmac/Icon.icns
+x/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Resources/Icon.icns
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Copy /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Resources/Icon.icns142"[1mCpResource[0m mac/Icon.icns [1m/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/Icon.icns[0m6bef7b1d2ddab841^ad4c7c1d2ddab841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4%20Mac.app/Contents/Resources/Icon.icns003488d5ddffdf42^474"[1mCpResource[0m mac/Icon.icns [1m/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources/Icon.icns[0m    cd /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Icon.icns /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Resources36"9C6C1261-7CA8-4BE3-B9BB-6B95BA334055-
+bAD1F9EED-2597-44F8-BD73-A8B530C6AEFD
+
+CLd /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/MacOS/Week3and4\ Mac normal x86_64
+s416951582.733893
+e416951583.326336
+r1
+xLd
+x/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/MacOS/Week3and4 Mac
+xnormal
+xx86_64
+d/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4 Mac.build/Objects-normal/x86_64/Week3and4 Mac.LinkFileList
+d/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4 Mac.build/Objects-normal/x86_64/AppDelegate.o
+d/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4 Mac.build/Objects-normal/x86_64/HelloWorldScene.o
+d/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4 Mac.build/Objects-normal/x86_64/main.o
+d/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libbox2d Mac.a
+d/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libchipmunk Mac.a
+d/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libcocos2dx Mac.a
+d/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libcocos2dx-extensions Mac.a
+d/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libCocosDenshion Mac.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libcurl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.A.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/CoreImage.framework/Versions/A/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework/Versions/A/Frameworks/ScalableUserInterface.framework/Versions/A/ScalableUserInterface
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AVFoundation.framework/Versions/A/Resources/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Link /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/MacOS/Week3and4 Mac127"[1mLd[0m /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/MacOS/Week3and4\ Mac normal x86_642deebb1e2ddab841^8b8b531f2ddab841^---0#0#1#--1641"[1mLd[0m /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/MacOS/Week3and4\ Mac normal x86_64    cd /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -F/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -filelist /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/Week3and4\ Mac.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libbox2d\ Mac.a /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libchipmunk\ Mac.a /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libcocos2dx\ Mac.a /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libcocos2dx-extensions\ Mac.a /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libCocosDenshion\ Mac.a -lcurl -lz -framework IOKit -framework OpenGL -framework AppKit -framework Foundation -framework CoreGraphics -framework QuartzCore -framework OpenAL -framework AVFoundation -framework AudioToolbox -Xlinker -dependency_info -Xlinker /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Objects-normal/x86_64/Week3and4\ Mac_dependency_info.dat -o /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/MacOS/Week3and4\ Mac36"71521F91-0EF2-4261-9336-79BDCD551EE4-
+bAD1F9EED-2597-44F8-BD73-A8B530C6AEFD
+
+CProcessInfoPlistFile /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Info.plist /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Info.plist
+s416951581.480618
+e416951581.482586
+r1
+xProcessInfoPlistFile
+x/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app/Contents/Info.plist
+x/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Process /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Info.plist144"[1mProcessInfoPlistFile[0m /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Info.plist [1mmac/Info.plist[0m091a7b1d2ddab841^598b7b1d2ddab841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Info.plist0000000000000000^538"[1mProcessInfoPlistFile[0m /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Info.plist [1mmac/Info.plist[0m    cd /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac    builtin-infoPlistUtility /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Info.plist -genpkginfo /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app/Contents/Info.plist36"2629AC39-76F8-4FDB-9682-817A674693FF-
+bAD1F9EED-2597-44F8-BD73-A8B530C6AEFD
+
+CProcessPCH++ /var/folders/3r/69ztzjwx36s60whqn8fvntlc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-adhdkdgvctcgihexxrpqqdtqybzv/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416951581.486176
+e416951581.498421
+r1
+xProcessPCH++
+x/var/folders/3r/69ztzjwx36s60whqn8fvntlc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-adhdkdgvctcgihexxrpqqdtqybzv/Prefix.pch.pch
+xmac/Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Precompile mac/Prefix.pch264"[1mProcessPCH++[0m /var/folders/3r/69ztzjwx36s60whqn8fvntlc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-adhdkdgvctcgihexxrpqqdtqybzv/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler118b7c1d2ddab841^4e997f1d2ddab841^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Prefix.pch0000000000000000^3821"[1mProcessPCH++[0m /var/folders/3r/69ztzjwx36s60whqn8fvntlc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-adhdkdgvctcgihexxrpqqdtqybzv/Prefix.pch.pch mac/Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DUSE_FILE32API -DCC_TARGET_OS_MAC -DCOCOS2D_DEBUG=1 -DCC_ENABLE_CHIPMUNK_INTEGRATION=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -Wno-sign-conversion -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/Week3and4\ Mac.hmap -I/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/include -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/base -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/physics -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/math/kazmath -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/2d -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/ui -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/network -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/audio/include -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/editor-support -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/extensions -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/external -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/external/chipmunk/include/chipmunk -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/cocos/2d/platform/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/../cocos2d/external/glfw3/include/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/DerivedSources/x86_64 -I/Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/build/Week3and4.build/Debug/Week3and4\ Mac.build/DerivedSources -F/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac --serialize-diagnostics /var/folders/3r/69ztzjwx36s60whqn8fvntlc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-adhdkdgvctcgihexxrpqqdtqybzv/Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/3r/69ztzjwx36s60whqn8fvntlc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-adhdkdgvctcgihexxrpqqdtqybzv/Prefix.pch.d -c /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac/mac/Prefix.pch -o /var/folders/3r/69ztzjwx36s60whqn8fvntlc0000gn/C/com.apple.DeveloperTools/5.1-5B130a/Xcode/SharedPrecompiledHeaders/Prefix-adhdkdgvctcgihexxrpqqdtqybzv/Prefix.pch.pch36"E62FD471-DE51-42DA-B5F8-75F728E1C857-
+bAD1F9EED-2597-44F8-BD73-A8B530C6AEFD
+
+CTouch /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app
+s416951583.327507
+e416951583.334991
+r1
+xTouch
+x/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Touch /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4 Mac.app86"[1mTouch[0m /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app8fe3531f2ddab841^48c3551f2ddab841^---0#0#1#--242"[1mTouch[0m /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app    cd /Users/audguy/AudguyWeek3and4/Week3and4/proj.ios_mac    /usr/bin/touch -c /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/Week3and4\ Mac.app36"16589958-AE1B-4186-9B58-B97490166C2D-
+bAD1F9EED-2597-44F8-BD73-A8B530C6AEFD
+

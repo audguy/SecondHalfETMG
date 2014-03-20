@@ -1,0 +1,23 @@
+dependencies: \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/audio/include/SimpleAudioEngine.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/audio/include/Export.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDConfig.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform/CCFileUtils.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base/CCPlatformMacros.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/ccConfig.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base/CCPlatformConfig.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform/mac/CCPlatformDefine.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/ccTypes.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base/CCGeometry.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/ccMacros.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base/CCConsole.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform/mac/CCStdC.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform/mac/CCGL.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base/CCValue.h \
+  /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base/CCData.h

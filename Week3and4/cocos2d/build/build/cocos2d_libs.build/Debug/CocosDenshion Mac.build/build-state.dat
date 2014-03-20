@@ -1,0 +1,272 @@
+TCocosDenshion Mac
+v6
+r1
+cCheck dependencies
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CCTweenFunction.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libCocosDenshion\ Mac.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000531E333300000000000000AA
+t1394488115
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000530B001B000000000000044C
+t1393229851
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E332A00000000000001DE
+t1394488106
+s478
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libCocosDenshion Mac.a
+t2
+s0
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CCTweenFunction.o
+t1395258781
+s30408
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.o
+t1395258781
+s103948
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.o
+t1395258781
+s14592
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o
+t1395258781
+s50664
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion Mac.LinkFileList
+c000000005329F59C000000000000041A
+t1395258780
+s1050
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.o
+t1395258781
+s143840
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o
+t1395258781
+s73732
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o
+t1395258781
+s43836
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.cpp
+c000000005323C6B40000000000002CF6
+t1394853556
+s11510
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.m
+c000000005323C684000000000000781D
+t1394853508
+s30749
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.m
+c000000005323C6840000000000002AA4
+t1394853508
+s10916
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm
+c000000005323C68400000000000013FA
+t1394853508
+s5114
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.m
+c000000005323C684000000000000CEC6
+t1394853508
+s52934
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm
+c000000005323C6840000000000001DE5
+t1394853508
+s7653
+
+N/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m
+c000000005323C6840000000000001663
+t1394853508
+s5731
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese38d9c1c2ddab841^14219d1c2ddab841^---0#1#1#--18"Check dependencies36"5A6C0D6C-B677-47A8-AD06-2756EA83F5BD-
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CCTweenFunction.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416951580.614553
+e416951581.056775
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CCTweenFunction.o
+x/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.cpp
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCPlatformDefine.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccMacros.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCConsole.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCStdC.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.cpp259"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CCTweenFunction.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler126b9d1c2ddab841^65890e1d2ddab841^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.cpp0000000000000000^3561"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CCTweenFunction.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.cpp[0m normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Wno-missing-field-initializers -Wno-missing-prototypes -Wnon-virtual-dtor -Woverloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/.. -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/physics -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/math/kazmath -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/audio/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/editor-support -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/ui -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/storage -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -MMD -MT dependencies -MF /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CCTweenFunction.d --serialize-diagnostics /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CCTweenFunction.dia -c /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/CCTweenFunction.cpp -o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CCTweenFunction.o36"D6013324-4BFF-4A8E-B88B-31E3B46BC198-
+b5ECE1EDE-3734-4B80-85F2-D49BDCDAD442
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416951580.615900
+e416951581.075935
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDAudioManager.o
+x/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.m
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.m270"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler52f39d1c2ddab841^0071131d2ddab841^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.m0000000000000000^3702"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/.. -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/physics -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/math/kazmath -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/audio/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/editor-support -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/ui -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/storage -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -MMD -MT dependencies -MF /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.d --serialize-diagnostics /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.dia -c /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.m -o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDAudioManager.o36"66A1BC41-25D3-4504-8401-D27CD635D00E-
+b5ECE1EDE-3734-4B80-85F2-D49BDCDAD442
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416951580.616378
+e416951581.008566
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDOpenALSupport.o
+x/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.m
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDConfig.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.m272"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler69e29d1c2ddab841^3b3a021d2ddab841^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.m0000000000000000^3708"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/.. -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/physics -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/math/kazmath -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/audio/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/editor-support -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/ui -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/storage -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -MMD -MT dependencies -MF /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.d --serialize-diagnostics /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.dia -c /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.m -o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDOpenALSupport.o36"F7F461E1-C412-4395-B469-5E7BE269CF93-
+b5ECE1EDE-3734-4B80-85F2-D49BDCDAD442
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416951580.614395
+e416951581.207687
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o
+x/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/include/SimpleAudioEngine.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/include/Export.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm277"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compilera7589d1c2ddab841^c32b351d2ddab841^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm0000000000000000^3792"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wnon-virtual-dtor -Woverloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/.. -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/physics -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/math/kazmath -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/audio/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/editor-support -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/ui -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/storage -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -MMD -MT dependencies -MF /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.d --serialize-diagnostics /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.dia -c /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.mm -o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CDXMacOSXSupport.o36"92269507-7EA3-41F7-8F9B-4BB045936FEE-
+b5ECE1EDE-3734-4B80-85F2-D49BDCDAD442
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416951580.615337
+e416951581.075506
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/CocosDenshion.o
+x/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.m
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.m268"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler069c9d1c2ddab841^c154131d2ddab841^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.m0000000000000000^3696"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/.. -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/physics -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/math/kazmath -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/audio/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/editor-support -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/ui -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/storage -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -MMD -MT dependencies -MF /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.d --serialize-diagnostics /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.dia -c /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.m -o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion.o36"1551EFC4-C5F6-4F6D-AC9E-FBDE4E02E960-
+b5ECE1EDE-3734-4B80-85F2-D49BDCDAD442
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s416951580.615533
+e416951581.468288
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o
+x/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/include/SimpleAudioEngine.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/include/Export.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/CCFileUtils.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCPlatformMacros.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCPlatformConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCPlatformDefine.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccTypes.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCGeometry.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/ccMacros.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCConsole.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCStdC.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/2d/platform/mac/CCGL.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCValue.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/base/CCData.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm279"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler74b59d1c2ddab841^47e4771d2ddab841^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm0000000000000000^3798"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm[0m normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c++11 -stdlib=libc++ -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wnon-virtual-dtor -Woverloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.7 -g -Wno-sign-conversion -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/.. -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/physics -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/math/kazmath -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/audio/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/editor-support -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/ui -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/storage -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -MMD -MT dependencies -MF /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.d --serialize-diagnostics /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.dia -c /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine.mm -o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine.o36"B2DA05E7-02C3-4649-A357-8F9CDE2A8C8B-
+b5ECE1EDE-3734-4B80-85F2-D49BDCDAD442
+
+CCompileC build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s416951580.614226
+e416951581.039219
+r1
+xCompileC
+xbuild/cocos2d_libs.build/Debug/CocosDenshion Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o
+x/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDAudioManager.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CocosDenshion.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDConfig.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDOpenALSupport.h
+d/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/CDXMacOSXSupport.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m286"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler1f4d9d1c2ddab841^280c0a1d2ddab841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m0000000000000000^3750"[1mCompileC[0m build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o [1m/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m[0m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=80 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -fcolor-diagnostics -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Werror=incompatible-pointer-types -Werror-implicit-function-declaration -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wshadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wno-int-conversion -Wbool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DCC_TARGET_OS_MAC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-sign-conversion -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/CocosDenshion\ Mac.hmap -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/.. -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/base -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/physics -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/math/kazmath -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/audio/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/editor-support -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/ui -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external/chipmunk/include/chipmunk -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../external -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/storage -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/../cocos/2d/platform/mac -I/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/include -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources/x86_64 -I/Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/DerivedSources -F/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -MMD -MT dependencies -MF /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.d --serialize-diagnostics /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.dia -c /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/cocos/audio/mac/SimpleAudioEngine_objc.m -o /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/SimpleAudioEngine_objc.o36"BAB451FF-C3D5-42A6-AC98-0083EADCEE0E-
+b5ECE1EDE-3734-4B80-85F2-D49BDCDAD442
+
+CLibtool /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libCocosDenshion\ Mac.a normal x86_64
+s416951581.468955
+e416951581.475077
+r1
+xLibtool
+x/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libCocosDenshion Mac.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"[1mLibtool[0m /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libCocosDenshion\ Mac.a normal x86_64107"[1mLibtool[0m /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libCocosDenshion\ Mac.a normal x86_645018781d2ddab841^38a0791d2ddab841^---0#0#1#--757"[1mLibtool[0m /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libCocosDenshion\ Mac.a normal x86_64    cd /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build    export MACOSX_DEPLOYMENT_TARGET=10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac -filelist /Users/audguy/AudguyWeek3and4/Week3and4/cocos2d/build/build/cocos2d_libs.build/Debug/CocosDenshion\ Mac.build/Objects-normal/x86_64/CocosDenshion\ Mac.LinkFileList -o /Users/audguy/AudguyWeek3and4/Week3and4/bin/debug/mac/libCocosDenshion\ Mac.a36"EA2F3E2C-ED74-4ED2-A842-F474C9807C02-
+b5ECE1EDE-3734-4B80-85F2-D49BDCDAD442
+
