@@ -3,7 +3,7 @@
 
 #include "cocos2d.h"
 
-class Game : public cocos2d::Layer
+class Game : public cocos2d::CCLayerColor
 {
 public:
     // there's no 'id' in cpp, so we recommend returning the class instance pointer
@@ -17,6 +17,7 @@ public:
     
     // implement the "static create()" method manually
     CREATE_FUNC(Game);
+    
 };
 
 #endif // __GAME_SCENE_H__

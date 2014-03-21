@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0A63EE43-5E45-49BF-8D22-A8BF87AA2F77</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Week3and4</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>88DDB00D-EF54-4089-85DE-A272EBAFD23D</key>
+		<string>https://github.com/audguy/SecondHalfETMG.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Week3and4/proj.ios_mac/Week3and4.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>88DDB00D-EF54-4089-85DE-A272EBAFD23D</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/audguy/SecondHalfETMG.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>88DDB00D-EF54-4089-85DE-A272EBAFD23D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>88DDB00D-EF54-4089-85DE-A272EBAFD23D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SecondHalfETMG</string>
+		</dict>
+	</array>
+</dict>
+</plist>
