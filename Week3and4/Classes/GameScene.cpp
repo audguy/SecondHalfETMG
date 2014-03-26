@@ -1,6 +1,7 @@
 #include "GameScene.h"
 #include "SimpleAudioEngine.h"
 
+
 using namespace cocos2d;
 
 
@@ -39,6 +40,17 @@ bool Game::init()
     // 2. add a menu item with "X" image, which is clicked to quit the program
     //    you may modify it.
 
+    label.initWithString("noms!", "fancy-ipadhd.fnt"); // = LabelBMFont::initWithString("noms!", "fancy-ipadhd.fnt");
+    //::create("Bitmap Font Atlas" , "fancy-ipadhd.fnt");
+    
+    // position the label on the center of the screen
+    label.setPosition(Point(origin.x + visibleSize.width/2,
+                             origin.y + visibleSize.height - label.getContentSize().height));
+    
+    
+    // add the label as a child to this layer
+    this->addChild(&label, 1);
+
     // add a "close" icon to exit the progress. it's an autorelease object
     auto closeItem = MenuItemImage::create(
                                            "CloseNormal.png",
@@ -65,6 +77,7 @@ bool Game::init()
     getEventDispatcher()->addEventListenerWithFixedPriority(touchListener, 100);
     
     schedule(schedule_selector(Game::tick));
+    
     
     auto btnPND = MenuItemImage::create("Button#.png","Button#.png",CC_CALLBACK_1(Game::menuButtonPNDCallback, this));
     auto btn0 = MenuItemImage::create("Button0.png","Button0.png",CC_CALLBACK_1(Game::menuButton0Callback, this));
@@ -133,8 +146,8 @@ bool Game::init()
     this->addChild(menu0);
     this->addChild(menuPND);
     
-    
-    
+    ResetGame = true;
+ 
     return true;
 }
 
@@ -157,57 +170,96 @@ void Game::createItem(Point p)
     }
 void Game::tick(float dTime)
 {
+    int pos=0;
+    char guesslbl[14] = {0,};
+    for(int i = 0; i < 6; i++)
+    {
+        guesslbl[pos++] = '0' + CurrGuess[i];
+        guesslbl[pos++] = ' ';
+    }
+    
+    //const String *strng = new String(guesslbl);
+    
+    label.setString(guesslbl);
+    label.draw();
+    if (ResetGame == true || CurGuessPos > 5) {
+        newGuess();
+        ResetGame = false;
+    }
+    
+
+    if (GuessUpdated == true) {
+        
+    }
+}
+
+void Game::newGuess()
+{
+    CurGuessPos = 0;
+    for(int i = 0; i < 6;i++)
+        CurrGuess[i] = 0;
+    
+    CorrectNumber = rand() % 1000000;
 }
 void Game::menuButton1Callback(Ref* pSender)
 {
+    CurrGuess[CurGuessPos++] = 1;
     
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton2Callback(Ref* pSender)
 {
+    CurrGuess[CurGuessPos++] = 2;
     
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton3Callback(Ref* pSender)
 {
+    CurrGuess[CurGuessPos++] = 3;
     
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton4Callback(Ref* pSender)
 {
+    CurrGuess[CurGuessPos++] = 4;
     
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton5Callback(Ref* pSender)
 {
+    CurrGuess[CurGuessPos++] = 5;
     
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton6Callback(Ref* pSender)
 {
+    CurrGuess[CurGuessPos++] = 6;
     
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton7Callback(Ref* pSender)
 {
+    CurrGuess[CurGuessPos++] = 7;
     
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton8Callback(Ref* pSender)
 {
+    CurrGuess[CurGuessPos++] = 8;
     
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton9Callback(Ref* pSender)
 {
+    CurrGuess[CurGuessPos++] = 9;
     
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
@@ -220,6 +272,7 @@ void Game::menuButtonASTCallback(Ref* pSender)
 }
 void Game::menuButton0Callback(Ref* pSender)
 {
+    CurrGuess[CurGuessPos++] = 0;
     
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     

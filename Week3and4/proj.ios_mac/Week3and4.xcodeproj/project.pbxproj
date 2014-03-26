@@ -95,6 +95,26 @@
 		FC62EC2D18E00B220059AD7D /* ButtonPush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC62EC2A18E00B220059AD7D /* ButtonPush.mp3 */; };
 		FC62EC2E18E00B220059AD7D /* Hunter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC62EC2B18E00B220059AD7D /* Hunter.mp3 */; };
 		FC62EC2F18E00B220059AD7D /* Hunter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC62EC2B18E00B220059AD7D /* Hunter.mp3 */; };
+		FC91977B18E2681F00D8F3CF /* bitmapFontTest2.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FC91977A18E2681F00D8F3CF /* bitmapFontTest2.fnt */; };
+		FC91977C18E2681F00D8F3CF /* bitmapFontTest2.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FC91977A18E2681F00D8F3CF /* bitmapFontTest2.fnt */; };
+		FC91977E18E26AEE00D8F3CF /* bitmapFontTest2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC91977D18E26AEE00D8F3CF /* bitmapFontTest2.png */; };
+		FC91977F18E26AEE00D8F3CF /* bitmapFontTest2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC91977D18E26AEE00D8F3CF /* bitmapFontTest2.png */; };
+		FC91978818E26E6C00D8F3CF /* fancy-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FC91978018E26E6C00D8F3CF /* fancy-hd.fnt */; };
+		FC91978918E26E6C00D8F3CF /* fancy-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FC91978018E26E6C00D8F3CF /* fancy-hd.fnt */; };
+		FC91978A18E26E6C00D8F3CF /* fancy-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = FC91978118E26E6C00D8F3CF /* fancy-hd.png */; };
+		FC91978B18E26E6C00D8F3CF /* fancy-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = FC91978118E26E6C00D8F3CF /* fancy-hd.png */; };
+		FC91978C18E26E6C00D8F3CF /* fancy-ipad.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FC91978218E26E6C00D8F3CF /* fancy-ipad.fnt */; };
+		FC91978D18E26E6C00D8F3CF /* fancy-ipad.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FC91978218E26E6C00D8F3CF /* fancy-ipad.fnt */; };
+		FC91978E18E26E6C00D8F3CF /* fancy-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FC91978318E26E6C00D8F3CF /* fancy-ipad.png */; };
+		FC91978F18E26E6C00D8F3CF /* fancy-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = FC91978318E26E6C00D8F3CF /* fancy-ipad.png */; };
+		FC91979018E26E6C00D8F3CF /* fancy-ipadhd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FC91978418E26E6C00D8F3CF /* fancy-ipadhd.fnt */; };
+		FC91979118E26E6C00D8F3CF /* fancy-ipadhd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FC91978418E26E6C00D8F3CF /* fancy-ipadhd.fnt */; };
+		FC91979218E26E6C00D8F3CF /* fancy-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = FC91978518E26E6C00D8F3CF /* fancy-ipadhd.png */; };
+		FC91979318E26E6C00D8F3CF /* fancy-ipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = FC91978518E26E6C00D8F3CF /* fancy-ipadhd.png */; };
+		FC91979418E26E6C00D8F3CF /* fancy.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FC91978618E26E6C00D8F3CF /* fancy.fnt */; };
+		FC91979518E26E6C00D8F3CF /* fancy.fnt in Resources */ = {isa = PBXBuildFile; fileRef = FC91978618E26E6C00D8F3CF /* fancy.fnt */; };
+		FC91979618E26E6C00D8F3CF /* fancy.png in Resources */ = {isa = PBXBuildFile; fileRef = FC91978718E26E6C00D8F3CF /* fancy.png */; };
+		FC91979718E26E6C00D8F3CF /* fancy.png in Resources */ = {isa = PBXBuildFile; fileRef = FC91978718E26E6C00D8F3CF /* fancy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -306,6 +326,16 @@
 		FC44023418DD6F9A00C1C680 /* ButtonAST.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonAST.png; sourceTree = "<group>"; };
 		FC62EC2A18E00B220059AD7D /* ButtonPush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ButtonPush.mp3; sourceTree = "<group>"; };
 		FC62EC2B18E00B220059AD7D /* Hunter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hunter.mp3; sourceTree = "<group>"; };
+		FC91977A18E2681F00D8F3CF /* bitmapFontTest2.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bitmapFontTest2.fnt; sourceTree = "<group>"; };
+		FC91977D18E26AEE00D8F3CF /* bitmapFontTest2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bitmapFontTest2.png; sourceTree = "<group>"; };
+		FC91978018E26E6C00D8F3CF /* fancy-hd.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "fancy-hd.fnt"; sourceTree = "<group>"; };
+		FC91978118E26E6C00D8F3CF /* fancy-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fancy-hd.png"; sourceTree = "<group>"; };
+		FC91978218E26E6C00D8F3CF /* fancy-ipad.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "fancy-ipad.fnt"; sourceTree = "<group>"; };
+		FC91978318E26E6C00D8F3CF /* fancy-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fancy-ipad.png"; sourceTree = "<group>"; };
+		FC91978418E26E6C00D8F3CF /* fancy-ipadhd.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "fancy-ipadhd.fnt"; sourceTree = "<group>"; };
+		FC91978518E26E6C00D8F3CF /* fancy-ipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fancy-ipadhd.png"; sourceTree = "<group>"; };
+		FC91978618E26E6C00D8F3CF /* fancy.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fancy.fnt; sourceTree = "<group>"; };
+		FC91978718E26E6C00D8F3CF /* fancy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fancy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -494,6 +524,16 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FC91978018E26E6C00D8F3CF /* fancy-hd.fnt */,
+				FC91978118E26E6C00D8F3CF /* fancy-hd.png */,
+				FC91978218E26E6C00D8F3CF /* fancy-ipad.fnt */,
+				FC91978318E26E6C00D8F3CF /* fancy-ipad.png */,
+				FC91978418E26E6C00D8F3CF /* fancy-ipadhd.fnt */,
+				FC91978518E26E6C00D8F3CF /* fancy-ipadhd.png */,
+				FC91978618E26E6C00D8F3CF /* fancy.fnt */,
+				FC91978718E26E6C00D8F3CF /* fancy.png */,
+				FC91977D18E26AEE00D8F3CF /* bitmapFontTest2.png */,
+				FC91977A18E2681F00D8F3CF /* bitmapFontTest2.fnt */,
 				FC62EC2A18E00B220059AD7D /* ButtonPush.mp3 */,
 				FC62EC2B18E00B220059AD7D /* Hunter.mp3 */,
 				FC44022918DD6F9A00C1C680 /* Button#.png */,
@@ -680,7 +720,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
+				FC91978A18E26E6C00D8F3CF /* fancy-hd.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				FC91979618E26E6C00D8F3CF /* fancy.png in Resources */,
+				FC91979018E26E6C00D8F3CF /* fancy-ipadhd.fnt in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
@@ -689,13 +732,17 @@
 				FC44023518DD6F9A00C1C680 /* Button#.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
 				FC44024118DD6F9B00C1C680 /* Button5.png in Resources */,
+				FC91978E18E26E6C00D8F3CF /* fancy-ipad.png in Resources */,
 				FC44024918DD6F9B00C1C680 /* Button9.png in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				1AFAF8BD16D35E4900DB1158 /* CloseSelected.png in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				FC44024318DD6F9B00C1C680 /* Button6.png in Resources */,
+				FC91979218E26E6C00D8F3CF /* fancy-ipadhd.png in Resources */,
+				FC91978C18E26E6C00D8F3CF /* fancy-ipad.fnt in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
+				FC91979418E26E6C00D8F3CF /* fancy.fnt in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				FC62EC2C18E00B220059AD7D /* ButtonPush.mp3 in Resources */,
 				FC44024B18DD6F9B00C1C680 /* ButtonAST.png in Resources */,
@@ -707,9 +754,12 @@
 				FC44023D18DD6F9A00C1C680 /* Button3.png in Resources */,
 				FC44023918DD6F9A00C1C680 /* Button1.png in Resources */,
 				FC44023F18DD6F9B00C1C680 /* Button4.png in Resources */,
+				FC91977E18E26AEE00D8F3CF /* bitmapFontTest2.png in Resources */,
 				FC44024518DD6F9B00C1C680 /* Button7.png in Resources */,
 				FC44024718DD6F9B00C1C680 /* Button8.png in Resources */,
 				FC62EC2E18E00B220059AD7D /* Hunter.mp3 in Resources */,
+				FC91977B18E2681F00D8F3CF /* bitmapFontTest2.fnt in Resources */,
+				FC91978818E26E6C00D8F3CF /* fancy-hd.fnt in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -719,17 +769,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				5087E75317EB910900C73F5D /* CloseNormal.png in Resources */,
+				FC91978F18E26E6C00D8F3CF /* fancy-ipad.png in Resources */,
 				FC44024A18DD6F9B00C1C680 /* Button9.png in Resources */,
 				FC44024618DD6F9B00C1C680 /* Button7.png in Resources */,
 				FC44024C18DD6F9B00C1C680 /* ButtonAST.png in Resources */,
+				FC91977F18E26AEE00D8F3CF /* bitmapFontTest2.png in Resources */,
+				FC91979118E26E6C00D8F3CF /* fancy-ipadhd.fnt in Resources */,
 				FC44023C18DD6F9A00C1C680 /* Button2.png in Resources */,
 				FC44023A18DD6F9A00C1C680 /* Button1.png in Resources */,
 				FC44023618DD6F9A00C1C680 /* Button#.png in Resources */,
+				FC91979518E26E6C00D8F3CF /* fancy.fnt in Resources */,
+				FC91978D18E26E6C00D8F3CF /* fancy-ipad.fnt in Resources */,
+				FC91978918E26E6C00D8F3CF /* fancy-hd.fnt in Resources */,
+				FC91977C18E2681F00D8F3CF /* bitmapFontTest2.fnt in Resources */,
+				FC91978B18E26E6C00D8F3CF /* fancy-hd.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				FC62EC2D18E00B220059AD7D /* ButtonPush.mp3 in Resources */,
 				FC44023E18DD6F9A00C1C680 /* Button3.png in Resources */,
 				5087E75417EB910900C73F5D /* CloseSelected.png in Resources */,
 				FC44024018DD6F9B00C1C680 /* Button4.png in Resources */,
+				FC91979318E26E6C00D8F3CF /* fancy-ipadhd.png in Resources */,
+				FC91979718E26E6C00D8F3CF /* fancy.png in Resources */,
 				FC62EC2F18E00B220059AD7D /* Hunter.mp3 in Resources */,
 				FC44023818DD6F9A00C1C680 /* Button0.png in Resources */,
 				FC44024818DD6F9B00C1C680 /* Button8.png in Resources */,
