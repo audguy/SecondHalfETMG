@@ -1,5 +1,6 @@
 #include "GameScene.h"
 #include "SimpleAudioEngine.h"
+#include <string.h>
 
 
 using namespace cocos2d;
@@ -40,16 +41,18 @@ bool Game::init()
     // 2. add a menu item with "X" image, which is clicked to quit the program
     //    you may modify it.
 
-    label.initWithString("noms!", "fancy-ipadhd.fnt"); // = LabelBMFont::initWithString("noms!", "fancy-ipadhd.fnt");
-    //::create("Bitmap Font Atlas" , "fancy-ipadhd.fnt");
+    GuessLabel.initWithString("noms!", "fancy-ipadhd.fnt");
+    OldGuessLabel.initWithString("Om Nom Nom NOM!","fancy-ipadhd.fnt");
     
     // position the label on the center of the screen
-    label.setPosition(Point(origin.x + visibleSize.width/2,
-                             origin.y + visibleSize.height - label.getContentSize().height));
+    GuessLabel.setPosition(Point(origin.x + visibleSize.width/2,
+                             origin.y + visibleSize.height - GuessLabel.getContentSize().height));
     
+    OldGuessLabel.setPosition(Point(origin.x + visibleSize.width/2,300));
     
+    this->addChild(&OldGuessLabel,1);
     // add the label as a child to this layer
-    this->addChild(&label, 1);
+    this->addChild(&GuessLabel, 1);
 
     // add a "close" icon to exit the progress. it's an autorelease object
     auto closeItem = MenuItemImage::create(
@@ -78,7 +81,28 @@ bool Game::init()
     
     schedule(schedule_selector(Game::tick));
     
+    LoadResources();
+
     
+    GuessCnt = 0;
+    CorrectNumber = rand() % 1000000;
+    MakeMagicString();
+    ResetGame = false;
+    strcpy(CurrGuess, "* * * * * *");
+   
+    for(int i = 0; i < 5;i++){
+        numInCorrectPos[i] = 0;
+        numCorrect[i] = 0;
+    }
+    return true;
+}
+void Game::LoadResources()
+{
+    Size visibleSize = Director::getInstance()->getVisibleSize();
+
+    auto Title = MenuItemImage::create("Title.png","Title.png",CC_CALLBACK_1(Game::TitleCallback, this));
+    auto GameOver = MenuItemImage::create("Game-Over.png","Game-Over.png",CC_CALLBACK_1(Game::GameOverCallback, this));
+
     auto btnPND = MenuItemImage::create("Button#.png","Button#.png",CC_CALLBACK_1(Game::menuButtonPNDCallback, this));
     auto btn0 = MenuItemImage::create("Button0.png","Button0.png",CC_CALLBACK_1(Game::menuButton0Callback, this));
     auto btn1 = MenuItemImage::create("Button1.png","Button1.png",CC_CALLBACK_1(Game::menuButton1Callback, this));
@@ -92,6 +116,8 @@ bool Game::init()
     auto btn9 = MenuItemImage::create("Button9.png","Button9.png",CC_CALLBACK_1(Game::menuButton9Callback, this));
     auto btnAST = MenuItemImage::create("ButtonAST.png","ButtonAST.png",CC_CALLBACK_1(Game::menuButtonASTCallback, this));
     
+    GameOver->cocos2d::Node::setPosition(0,0);
+    Title->cocos2d::Node::setPosition(0,0);
     btn1->cocos2d::Node::setPosition(64, visibleSize.height - 200);
     btn2->cocos2d::Node::setPosition(64 + 128 + 10, visibleSize.height - 200);
     btn3->cocos2d::Node::setPosition(64 + 256 + 20, visibleSize.height - 200);
@@ -105,6 +131,8 @@ bool Game::init()
     btn0->cocos2d::Node::setPosition(64 + 128 + 10,  visibleSize.height - 200 - 384 - 30);
     btnPND->cocos2d::Node::setPosition(64 + 256 + 20,  visibleSize.height - 200 - 384 - 30);
     
+    auto Title1 = Menu::create(Title, NULL);
+    GameOverMenu = Menu::create(GameOver,NULL);
     auto menu1 = Menu::create(btn1, NULL);
     auto menu2 = Menu::create(btn2, NULL);
     auto menu3 = Menu::create(btn3, NULL);
@@ -118,9 +146,8 @@ bool Game::init()
     auto menu0 = Menu::create(btn0, NULL);
     auto menuPND = Menu::create(btnPND, NULL);
     
-
-    
-    
+    GameOverMenu->setPosition(Point(visibleSize.width/2,visibleSize.height/2));
+    Title1->setPosition(Point(visibleSize.width/2,visibleSize.height/2));
     menu1->setPosition(Point::ZERO);
     menu2->setPosition(Point::ZERO);
     menu3->setPosition(Point::ZERO);
@@ -133,6 +160,7 @@ bool Game::init()
     menuAST->setPosition(Point::ZERO);
     menu0->setPosition(Point::ZERO);
     menuPND->setPosition(Point::ZERO);
+    
     this->addChild(menu1);
     this->addChild(menu2);
     this->addChild(menu3);
@@ -145,143 +173,259 @@ bool Game::init()
     this->addChild(menuAST);
     this->addChild(menu0);
     this->addChild(menuPND);
-    
-    ResetGame = true;
- 
-    return true;
+    this->addChild(Title1,2);
+    GameOverMenu->retain();
 }
 
 bool Game::touchBegin(Touch *touch, Event *event)
 {
-    Game::createItem(touch->getLocation());
+  
     
     return true;
 }
 
-void Game::createItem(Point p)
-{
-    auto bballSprite = Sprite::create("basketBall.png");
-    
-    bballSprite->setPosition(p);
-    bballSprite->setScale(.25f);
-    
-    this->addChild(bballSprite,0);
-    
-    }
+
 void Game::tick(float dTime)
 {
-    int pos=0;
-    char guesslbl[14] = {0,};
-    for(int i = 0; i < 6; i++)
-    {
-        guesslbl[pos++] = '0' + CurrGuess[i];
-        guesslbl[pos++] = ' ';
-    }
+// build last choices string
+    char buildstring[180];
+    for(int i = 0; i < 180; i++)
+        buildstring[i] = 0;
+   
+    sprintf(buildstring, "%s correct:%i in order:%i\n%s correct:%i in order:%i\n%s correct:%i in order:%i\n%s correct:%i in order:%i\n%s correct:%i in order:%i",PrevGuesses[0],numCorrect[0],numInCorrectPos[0],PrevGuesses[1],numCorrect[1],numInCorrectPos[1],PrevGuesses[2],numCorrect[2],numInCorrectPos[2],PrevGuesses[3],numCorrect[3],numInCorrectPos[3],PrevGuesses[4],numCorrect[4],numInCorrectPos[4]);
+    OldGuessLabel.setString(buildstring);
+    OldGuessLabel.setScale(0.8f);
+    OldGuessLabel.draw();
     
-    //const String *strng = new String(guesslbl);
-    
-    label.setString(guesslbl);
-    label.draw();
-    if (ResetGame == true || CurGuessPos > 5) {
-        newGuess();
-        ResetGame = false;
+// build current number
+    GuessLabel.setString(CurrGuess);
+    GuessLabel.draw();
+        if ( CurGuessPos > 10) {
+            CurGuessPos = 0;
+            
+            strcpy(PrevGuesses[GuessCnt], CurrGuess);
+            ExamineChoice();
+            if (std::strcmp(CorrectNumberStr, CurrGuess) == 0) {
+                // winnar
+                CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("Harm.mp3");
+              
+                ResetGame = true;
+            }
+            strcpy(CurrGuess, "* * * * * *");
+        //check for last attempt
+        if (GuessCnt == 4) {
+            // fail
+            CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("fail.mp3");
+            ResetGame = true;
+            this->addChild(GameOverMenu,2);
+        } else {
+            // not last
+            GuessCnt++;
+        }
+            
+            
+        if (ResetGame == true ) {
+            
+            // erase previous attempt
+            for (int i = 0; i < 5; i++){
+                for (int j = 0; j < 14; j++) {
+                    PrevGuesses[i][j] = 0;
+                }
+            }
+            
+            newGuess();
+            GuessCnt = 0;
+            CorrectNumber = rand() % 1000000;
+            MakeMagicString();
+            ResetGame = false;
+            strcpy(CurrGuess, "* * * * * *");
+            for(int i = 0; i < 5;i++){
+                numInCorrectPos[i] = 0;
+                numCorrect[i] = 0;
+            }
+
+            GuessLabel.setString(CurrGuess);
+            GuessLabel.draw();
+        }
+
     }
     
 
-    if (GuessUpdated == true) {
-        
+}
+
+void Game::MakeMagicString()
+{
+    char ToStr[7] = {0,};
+    int num = CorrectNumber;
+    int hld = 0;
+    
+    for(int i = 0 ; i < 6;i++)
+    {
+        hld = num % 10;
+        num = num / 10;
+        ToStr[5-i] = '0' + hld;
     }
+    int k = 0;
+    for (int j = 0; j < 12; j++) {
+        if (j%2) {
+            CorrectNumberStr[j] = ' ';
+        }
+        else
+            CorrectNumberStr[j] = ToStr[k++];
+    }
+    CorrectNumberStr[11]='\0';
 }
 
 void Game::newGuess()
 {
     CurGuessPos = 0;
-    for(int i = 0; i < 6;i++)
+    for(int i = 0; i < 13;i++)
         CurrGuess[i] = 0;
     
-    CorrectNumber = rand() % 1000000;
+    
+}
+
+void Game::ExamineChoice()
+{
+    numInCorrectPos[GuessCnt] = 0;
+    numCorrect[GuessCnt] = 0;
+    
+    for (int i = 0; i < 12; i+=2) {
+        if (CorrectNumberStr[i] == CurrGuess[i]) {
+            numInCorrectPos[GuessCnt]++;
+        }
+    }
+    //if (CorrectNumberStr[0] == CurrGuess[0]) {
+    //    numCorrect++;
+    //}
+    char test[13];
+    strcpy(test, CurrGuess);
+    
+    for (int i = 0; i < 12; i+=2) {
+        for (int j = 0; j <12; j+=2) {
+            if (CorrectNumberStr[i] == test[j]) {
+                numCorrect[GuessCnt]++;
+                test[j]='>';
+                j=13;
+            }
+
+        }
+    }
 }
 void Game::menuButton1Callback(Ref* pSender)
 {
-    CurrGuess[CurGuessPos++] = 1;
-    
+    CurrGuess[CurGuessPos++] = '1';
+    if (CurGuessPos < 11) {
+        CurrGuess[CurGuessPos++] = ' ';
+    }
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton2Callback(Ref* pSender)
 {
-    CurrGuess[CurGuessPos++] = 2;
-    
+    CurrGuess[CurGuessPos++] = '2';
+    if (CurGuessPos < 11) {
+        CurrGuess[CurGuessPos++] = ' ';
+    }
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton3Callback(Ref* pSender)
 {
-    CurrGuess[CurGuessPos++] = 3;
-    
+    CurrGuess[CurGuessPos++] = '3';
+    if (CurGuessPos < 11) {
+        CurrGuess[CurGuessPos++] = ' ';
+    }
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton4Callback(Ref* pSender)
 {
-    CurrGuess[CurGuessPos++] = 4;
-    
+    CurrGuess[CurGuessPos++] = '4';
+    if (CurGuessPos < 11) {
+        CurrGuess[CurGuessPos++] = ' ';
+    }
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton5Callback(Ref* pSender)
 {
-    CurrGuess[CurGuessPos++] = 5;
-    
+    CurrGuess[CurGuessPos++] = '5';
+    if (CurGuessPos < 11) {
+        CurrGuess[CurGuessPos++] = ' ';
+    }
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
+
     
 }
 void Game::menuButton6Callback(Ref* pSender)
 {
-    CurrGuess[CurGuessPos++] = 6;
-    
+    CurrGuess[CurGuessPos++] = '6';
+    if (CurGuessPos < 11) {
+        CurrGuess[CurGuessPos++] = ' ';
+    }
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
-    
 }
 void Game::menuButton7Callback(Ref* pSender)
 {
-    CurrGuess[CurGuessPos++] = 7;
-    
+    CurrGuess[CurGuessPos++] = '7';
+    if (CurGuessPos < 11) {
+        CurrGuess[CurGuessPos++] = ' ';
+    }
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
     
 }
 void Game::menuButton8Callback(Ref* pSender)
 {
-    CurrGuess[CurGuessPos++] = 8;
-    
+    CurrGuess[CurGuessPos++] = '8';
+    if (CurGuessPos < 11) {
+        CurrGuess[CurGuessPos++] = ' ';
+    }
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
-    
+   
 }
 void Game::menuButton9Callback(Ref* pSender)
 {
-    CurrGuess[CurGuessPos++] = 9;
-    
+    CurrGuess[CurGuessPos++] = '9';
+    if (CurGuessPos < 11) {
+        CurrGuess[CurGuessPos++] = ' ';
+    }
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
-    
+   
 }
 void Game::menuButtonASTCallback(Ref* pSender)
 {
-    
+    CurrGuess[CurGuessPos++] = '*';
+    if (CurGuessPos < 11) {
+        CurrGuess[CurGuessPos++] = ' ';
+    }
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
-    
+
 }
 void Game::menuButton0Callback(Ref* pSender)
 {
-    CurrGuess[CurGuessPos++] = 0;
-    
+    CurrGuess[CurGuessPos++] = '0';
+    if (CurGuessPos < 11) {
+        CurrGuess[CurGuessPos++] = ' ';
+    }
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
-    
+  
 }
 void Game::menuButtonPNDCallback(Ref* pSender)
 {
-    
+    CurrGuess[CurGuessPos++] = '#';
+    if (CurGuessPos < 11) {
+        CurrGuess[CurGuessPos++] = ' ';
+    }
     CocosDenshion::SimpleAudioEngine::getInstance()->playEffect("ButtonPush.mp3");
-    
+   
+}
+void Game::TitleCallback(Ref* pSender){
+    Menu * noms = (Menu *)pSender;
+    noms->Menu::removeFromParent();
+}
+void Game::GameOverCallback(Ref* pSender){
+    GameOverMenu->removeFromParent();
 }
 void Game::menuCloseCallback(Ref* pSender)
 {

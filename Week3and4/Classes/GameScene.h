@@ -11,13 +11,21 @@ class Game : public cocos2d::Layer
 {
 public:
     
-    int CurrGuess[6];
+    char CurrGuess[13];
+    char PrevGuesses[5][14];
+    char CorrectNumberStr[13];
+    int GuessCnt;
     int CurGuessPos;
     int CorrectNumber;
     bool ResetGame;
     bool GuessUpdated;
-    LabelBMFont label;
-
+    LabelBMFont GuessLabel;
+    LabelBMFont OldGuessLabel;
+    int GameState;
+    Menu * GameOverMenu;
+    
+    int numInCorrectPos[5];
+    int numCorrect[5];
     // there's no 'id' in cpp, so we recommend returning the class instance pointer
     static cocos2d::Scene* createScene();
 
@@ -41,11 +49,15 @@ public:
     void menuButtonASTCallback(Ref* pSender);
     void menuButton0Callback(Ref* pSender);
     void menuButtonPNDCallback(Ref* pSender);
-
+    void TitleCallback(Ref* pSender);
+    void GameOverCallback(Ref* pSender);
+    void LoadResources();
     
     void tick(float dTime);
     
-    void createItem(Point p);
+    void MakeMagicString();
+    
+    void ExamineChoice();
     
     bool touchBegin(Touch* touch,Event* event);
     

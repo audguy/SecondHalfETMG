@@ -91,6 +91,14 @@
 		FC44024A18DD6F9B00C1C680 /* Button9.png in Resources */ = {isa = PBXBuildFile; fileRef = FC44023318DD6F9A00C1C680 /* Button9.png */; };
 		FC44024B18DD6F9B00C1C680 /* ButtonAST.png in Resources */ = {isa = PBXBuildFile; fileRef = FC44023418DD6F9A00C1C680 /* ButtonAST.png */; };
 		FC44024C18DD6F9B00C1C680 /* ButtonAST.png in Resources */ = {isa = PBXBuildFile; fileRef = FC44023418DD6F9A00C1C680 /* ButtonAST.png */; };
+		FC4DB9B018E4EFA3008E9CDD /* Harm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC4DB9AF18E4EFA3008E9CDD /* Harm.mp3 */; };
+		FC4DB9B118E4EFA3008E9CDD /* Harm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC4DB9AF18E4EFA3008E9CDD /* Harm.mp3 */; };
+		FC4DB9B318E515B7008E9CDD /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC4DB9B218E515B7008E9CDD /* fail.mp3 */; };
+		FC4DB9B418E515B7008E9CDD /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC4DB9B218E515B7008E9CDD /* fail.mp3 */; };
+		FC4DB9B718E53954008E9CDD /* Game-Over.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4DB9B518E53954008E9CDD /* Game-Over.png */; };
+		FC4DB9B818E53954008E9CDD /* Game-Over.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4DB9B518E53954008E9CDD /* Game-Over.png */; };
+		FC4DB9B918E53954008E9CDD /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4DB9B618E53954008E9CDD /* Title.png */; };
+		FC4DB9BA18E53954008E9CDD /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = FC4DB9B618E53954008E9CDD /* Title.png */; };
 		FC62EC2C18E00B220059AD7D /* ButtonPush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC62EC2A18E00B220059AD7D /* ButtonPush.mp3 */; };
 		FC62EC2D18E00B220059AD7D /* ButtonPush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC62EC2A18E00B220059AD7D /* ButtonPush.mp3 */; };
 		FC62EC2E18E00B220059AD7D /* Hunter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC62EC2B18E00B220059AD7D /* Hunter.mp3 */; };
@@ -324,6 +332,10 @@
 		FC44023218DD6F9A00C1C680 /* Button8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button8.png; sourceTree = "<group>"; };
 		FC44023318DD6F9A00C1C680 /* Button9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button9.png; sourceTree = "<group>"; };
 		FC44023418DD6F9A00C1C680 /* ButtonAST.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonAST.png; sourceTree = "<group>"; };
+		FC4DB9AF18E4EFA3008E9CDD /* Harm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Harm.mp3; sourceTree = "<group>"; };
+		FC4DB9B218E515B7008E9CDD /* fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fail.mp3; sourceTree = "<group>"; };
+		FC4DB9B518E53954008E9CDD /* Game-Over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Game-Over.png"; sourceTree = "<group>"; };
+		FC4DB9B618E53954008E9CDD /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title.png; sourceTree = "<group>"; };
 		FC62EC2A18E00B220059AD7D /* ButtonPush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ButtonPush.mp3; sourceTree = "<group>"; };
 		FC62EC2B18E00B220059AD7D /* Hunter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hunter.mp3; sourceTree = "<group>"; };
 		FC91977A18E2681F00D8F3CF /* bitmapFontTest2.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bitmapFontTest2.fnt; sourceTree = "<group>"; };
@@ -524,6 +536,10 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FC4DB9B518E53954008E9CDD /* Game-Over.png */,
+				FC4DB9B618E53954008E9CDD /* Title.png */,
+				FC4DB9B218E515B7008E9CDD /* fail.mp3 */,
+				FC4DB9AF18E4EFA3008E9CDD /* Harm.mp3 */,
 				FC91978018E26E6C00D8F3CF /* fancy-hd.fnt */,
 				FC91978118E26E6C00D8F3CF /* fancy-hd.png */,
 				FC91978218E26E6C00D8F3CF /* fancy-ipad.fnt */,
@@ -724,6 +740,7 @@
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				FC91979618E26E6C00D8F3CF /* fancy.png in Resources */,
 				FC91979018E26E6C00D8F3CF /* fancy-ipadhd.fnt in Resources */,
+				FC4DB9B018E4EFA3008E9CDD /* Harm.mp3 in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				1AFAF8BC16D35E4900DB1158 /* CloseNormal.png in Resources */,
@@ -740,6 +757,7 @@
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				FC44024318DD6F9B00C1C680 /* Button6.png in Resources */,
 				FC91979218E26E6C00D8F3CF /* fancy-ipadhd.png in Resources */,
+				FC4DB9B318E515B7008E9CDD /* fail.mp3 in Resources */,
 				FC91978C18E26E6C00D8F3CF /* fancy-ipad.fnt in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				FC91979418E26E6C00D8F3CF /* fancy.fnt in Resources */,
@@ -747,7 +765,9 @@
 				FC62EC2C18E00B220059AD7D /* ButtonPush.mp3 in Resources */,
 				FC44024B18DD6F9B00C1C680 /* ButtonAST.png in Resources */,
 				FC44023718DD6F9A00C1C680 /* Button0.png in Resources */,
+				FC4DB9B918E53954008E9CDD /* Title.png in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
+				FC4DB9B718E53954008E9CDD /* Game-Over.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
@@ -769,6 +789,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5087E75317EB910900C73F5D /* CloseNormal.png in Resources */,
+				FC4DB9B818E53954008E9CDD /* Game-Over.png in Resources */,
+				FC4DB9B418E515B7008E9CDD /* fail.mp3 in Resources */,
 				FC91978F18E26E6C00D8F3CF /* fancy-ipad.png in Resources */,
 				FC44024A18DD6F9B00C1C680 /* Button9.png in Resources */,
 				FC44024618DD6F9B00C1C680 /* Button7.png in Resources */,
@@ -776,6 +798,7 @@
 				FC91977F18E26AEE00D8F3CF /* bitmapFontTest2.png in Resources */,
 				FC91979118E26E6C00D8F3CF /* fancy-ipadhd.fnt in Resources */,
 				FC44023C18DD6F9A00C1C680 /* Button2.png in Resources */,
+				FC4DB9BA18E53954008E9CDD /* Title.png in Resources */,
 				FC44023A18DD6F9A00C1C680 /* Button1.png in Resources */,
 				FC44023618DD6F9A00C1C680 /* Button#.png in Resources */,
 				FC91979518E26E6C00D8F3CF /* fancy.fnt in Resources */,
@@ -790,6 +813,7 @@
 				FC44024018DD6F9B00C1C680 /* Button4.png in Resources */,
 				FC91979318E26E6C00D8F3CF /* fancy-ipadhd.png in Resources */,
 				FC91979718E26E6C00D8F3CF /* fancy.png in Resources */,
+				FC4DB9B118E4EFA3008E9CDD /* Harm.mp3 in Resources */,
 				FC62EC2F18E00B220059AD7D /* Hunter.mp3 in Resources */,
 				FC44023818DD6F9A00C1C680 /* Button0.png in Resources */,
 				FC44024818DD6F9B00C1C680 /* Button8.png in Resources */,
