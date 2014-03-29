@@ -66,7 +66,7 @@ bool Game::init()
     // create menu, it's an autorelease object
     auto menu = Menu::create(closeItem, NULL);
     menu->setPosition(Point::ZERO);
-    this->addChild(menu, 1);
+    this->addChild(menu, 3);
 
     /////////////////////////////
     // 3. add your codes below...
@@ -429,9 +429,14 @@ void Game::GameOverCallback(Ref* pSender){
 }
 void Game::menuCloseCallback(Ref* pSender)
 {
-    Director::getInstance()->end();
-
-#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS)
-    exit(0);
-#endif
+    GameOverMenu->removeFromParent();
+    Size visibleSize = Director::getInstance()->getVisibleSize();
+     auto Title = MenuItemImage::create("Title.png","Title.png",CC_CALLBACK_1(Game::TitleCallback, this));
+    Title->cocos2d::Node::setPosition(0,0);
+    auto Title1 = Menu::create(Title, NULL);
+    Title1->setPosition(Point(visibleSize.width/2,visibleSize.height/2));
+    this->addChild(Title1,2);
+    
+    
+    
 }
